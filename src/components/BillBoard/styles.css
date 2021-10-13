@@ -1,0 +1,32 @@
+.main{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.billboardImage img{
+    width: 100%;
+    height: 400px;
+    max-height: 400px;
+    display: block;
+    margin: 0 auto;
+}
+.detail{
+    margin-top: 10px;
+    background-color: rgb(240, 233, 233);
+    padding: 20px;
+    box-shadow: 0 5px 5px 5px rgb(0 0 0 / 7%);
+    transition: box-shadow 0.2s ease-out;
+}
+.icon{
+    color:black;
+    font-size: 1.5vw;
+    margin-top: 5px;
+    color: rgb(155, 67, 67);
+}
+.spanItem{
+    font-size:  1.5vw;
+    font-weight: 600;
+    color: rgb(83, 83, 83);
+}
+
